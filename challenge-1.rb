@@ -1,11 +1,17 @@
 #1
-[1, 2, 3, 4, 5].map { |num| puts num + 1 }
+arr = [1, 2, 3, 4, 5]
+arr1 = arr.push(6)
+print arr1
+
 
 #2
-puts [1, 3, 5, 4, 2].sort
+print [1, 3, 5, 4, 2].sort
 
 #3
-[1, 3, 5, 4, 2].sort.map { |num| puts num + 1 }
+[1, 3, 5, 4, 2].sort.map { |num| print num + 1 }
 
 #4
-puts [1, 2, 3, 4, 5].sum
+print [1, 2, 3, 4, 5].sum
+
+#5
+[1, 2, 3, 4, 5].map { |num| print num * 2}
